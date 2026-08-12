@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "chapters": "話",
+    "news": "ニュース",
+    "universe": "ワールド"
+  },
+  "home": {
+    "read_now": "今すぐ読む",
+    "universe": "ワールド",
+    "chapters": "話",
+    "languages": "言語",
+    "readers": "読者",
+    "rating": "評価",
+    "recent_chapters": "最新話",
+    "see_all": "すべて見る",
+    "latest_news": "最新ニュース"
+  },
+  "reader": {
+    "back": "戻る",
+    "font_size": "文字サイズ",
+    "theme": "テーマ",
+    "light": "ライト",
+    "sepia": "セピア",
+    "dark": "ダーク",
+    "comments": "コメント",
+    "share": "シェア"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "home",
+    "chapters": "chapters",
+    "news": "news",
+    "universe": "universe"
+  },
+  "home": {
+    "read_now": "read now",
+    "universe": "universe",
+    "chapters": "chapters",
+    "languages": "languages",
+    "readers": "readers",
+    "rating": "rating",
+    "recent_chapters": "recent chapters",
+    "see_all": "see all",
+    "latest_news": "latest news"
+  },
+  "reader": {
+    "back": "back",
+    "font_size": "font size",
+    "theme": "theme",
+    "light": "light",
+    "sepia": "sepia",
+    "dark": "dark",
+    "comments": "comments",
+    "share": "share"
+  }
+}

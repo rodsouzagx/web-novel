@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "início",
+    "chapters": "capítulos",
+    "news": "notícias",
+    "universe": "universo"
+  },
+  "home": {
+    "read_now": "ler agora",
+    "universe": "universo",
+    "chapters": "capítulos",
+    "languages": "idiomas",
+    "readers": "leitores",
+    "rating": "avaliação",
+    "recent_chapters": "capítulos recentes",
+    "see_all": "ver todos",
+    "latest_news": "últimas notícias"
+  },
+  "reader": {
+    "back": "voltar",
+    "font_size": "tamanho",
+    "theme": "tema",
+    "light": "claro",
+    "sepia": "sépia",
+    "dark": "escuro",
+    "comments": "comentários",
+    "share": "compartilhar"
+  }
+}
