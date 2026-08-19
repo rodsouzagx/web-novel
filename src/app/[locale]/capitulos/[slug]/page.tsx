@@ -3,6 +3,7 @@ import { getAllChapters, getChapterBySlug } from "@/lib/sanity/queries";
 import { PortableText } from "@portabletext/react";
 import { notFound } from "next/navigation";
 import Comments from "@/components/reader/Comments";
+import ShareButton from "@/components/reader/ShareButton";
 
 export const revalidate = 60;
 
@@ -47,6 +48,13 @@ export default async function ChapterPage({
           <PortableText value={chapter.content} />
         </div>
 
+        {/* COMPARTILHAR */}
+        <div className="flex justify-end mt-8">
+          <ShareButton title={chapter.title} chapterNumber={chapter.chapterNumber} />
+        </div>
+
+        {/* NAVEGAÇÃO */}
+        <div className="flex justify-between items-center mt-4 pt-6 border-t border-zinc-200 dark:border-zinc-800"></div>
         {/* NAVEGAÇÃO */}
         <div className="flex justify-between items-center mt-12 pt-6 border-t border-zinc-200 dark:border-zinc-800">
           {chapter.prevChapter ? (
