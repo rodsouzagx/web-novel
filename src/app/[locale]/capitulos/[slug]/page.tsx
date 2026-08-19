@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { getAllChapters, getChapterBySlug } from "@/lib/sanity/queries";
 import { PortableText } from "@portabletext/react";
 import { notFound } from "next/navigation";
+import Comments from "@/components/reader/Comments";
 
 export const revalidate = 60;
 
@@ -69,6 +70,9 @@ export default async function ChapterPage({
             <span className="text-sm text-zinc-400">último capítulo</span>
           )}
         </div>
+
+        {/* COMENTÁRIOS */}
+        <Comments chapterId={chapter._id} />
       </div>
     </main>
   );
